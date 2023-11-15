@@ -17,8 +17,8 @@ Build a simple web application that displays a dynamic list of items.
 4. You can using blank React Project (Vite/CRA) or you can use our **[basecode](https://github.com/baguspurnama98/pod-live-coding-react-vite)**
 
 MockUp:
-<img title="a title" alt="Alt text" src="src\assets\mockup\Home.jpg">
-<img title="a title" alt="Alt text" src="src\assets\mockup\Modal.jpg">
+<img title="a title" alt="Alt text" src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaB2KTFynBG9XmUzJ65wxsb7bI35xtcBzbLiUiLO9_h0zZxar-S9vcb0WuWBTr4XTvsg2dCLKdMOub6R2jGy7NvyYt6lmA=s1600">
+<img title="a title" alt="Alt text" src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaArlSWqnw6-H3Si0atOxtSn3jJMSNU3HAqhj7h1arooV1FkG5M8LGuWSEvujOosMHZQq0vgEoxJXgkL7yk-_pZIcDUkTg=s1600">
 
 ## Challenge
 
