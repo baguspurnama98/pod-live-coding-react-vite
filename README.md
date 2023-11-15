@@ -2,4 +2,5 @@
 
 Technologies:
 - [ANDT](https://ant.design/)
-- [https://tailwindcss.com/](TailwindCSS)
+- [TailwindCss](https://tailwindcss.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
