@@ -1,16 +1,20 @@
 # Live Coding Instructions
 
 ## Objective
+
 Build a simple web application that displays a dynamic list of items.
 
 ## Technologies
+
 1. JavaScript/Typescript, CSS, TailwindCss, ANTD, RTK, etc. (you may use any frameworks or libraries if you prefer)
 2. Feel free to use any IDE (Integrated Development Environment)
 
-## Time Frame 
+## Time Frame
+
 **30 minutes**
 
 ## Tips/Hint:
+
 1. Keep an eye on the time; prioritize functionality over perfection.
 2. Explain your thought process and code decisions as you go.
 3. Feel free to ask for help or clarification if you encounter challenges.
@@ -23,6 +27,7 @@ MockUp:
 ## Challenge
 
 1. Temukan kesalahan pada code ini?
+
 ```JSX
 const {useState} = React
 
@@ -32,19 +37,24 @@ function App(){
     const handleOnClick = () => {
         toggleFlag(!flag)
 
-        setTimeout(()=>{ toggleFlag(!flag);
+        setTimeout(()=>{
+          toggleFlag(!flag);
         }, 2000)
     }
 
+   const ToastComp = () => <div>Hello World</div>
+
     return (
         <div>
-            <button onClick="{handleOnClick}">{flag ? "True" : "False"}</button>
+          {flag && <ToastComp />}
+          <button onClick={handleOnClick}>Show Toaster</button>
         </div>
     )
 }
 ```
 
 2. Temukan kesalahan pada code ini?
+
 ```JSX
 const data = [{
   name: "Wahyu",
@@ -70,7 +80,8 @@ temp[indexSelected] = {
 
 ```
 
-3.  Apa nilai yang ditampilkan ```<h1>``` ?
+3.  Apa nilai yang ditampilkan `<h1>` ?
+
 ```JSX
 export default function App() {
   const [setCounterState, counterState] = useState(0);
@@ -83,6 +94,7 @@ export default function App() {
 ```
 
 4.  Apakah benar output log counter bernilai 1 2 3 4 5 jika handleOnClick dipanggil 5x? Jelaskan.?
+
 ```JSX
 export default function App() {
   const [counterState, setCounterState] = useState(0);
@@ -105,6 +117,7 @@ export default function App() {
 ```
 
 5. Apakah benar output log counter bernilai 1 2 3 4 5 jika handleOnClick dipanggil 5x? Jelaskan.
+
 ```JSX
 export default function App() {
   const [counterState, setCounterState] = useState(0);
