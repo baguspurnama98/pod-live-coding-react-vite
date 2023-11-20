@@ -7,3 +7,7 @@ body, html {
   min-height: 100vh;
   background-color: ghostwhite;
 }
+
+.ant-btn-primary{
+  background-color: #1677ff ;
+}

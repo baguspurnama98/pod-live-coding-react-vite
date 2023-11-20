@@ -1,8 +1,11 @@
+import { Table } from 'antd'
 import React from 'react'
 
-const TableComponent = () => {
+const TableComponent = ({ dataList }) => {
   return (
-    <div>TableComponent</div>
+    <div className='w-full'>
+      <Table dataSource={[]} columns={[]} />
+    </div>
   )
 }
 
